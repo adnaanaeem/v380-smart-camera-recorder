@@ -1,0 +1,28 @@
+# Secrets and personal config -- never commit these
+settings.json
+telegram_token.txt
+youtube_key.txt
+
+# Recorded footage and alert snapshots -- private, and large binary files
+recordings/
+alerts/
+
+# Detection model weights -- large binaries, redistributed from a third-party
+# repo (chuanqi305/MobileNet-SSD); download via the steps in README instead
+# of vendoring them here
+MobileNetSSD_deploy.prototxt
+MobileNetSSD_deploy.caffemodel
+
+# Runtime artifacts
+app.log
+__pycache__/
+*.pyc
+*.whl
+
+# Internal session notes -- not needed by other users of this repo
+claudehandsoff.md
+
+# Editor/OS cruft
+.claude/
+.vscode/
+Thumbs.db
