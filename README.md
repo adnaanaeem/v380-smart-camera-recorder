@@ -8,6 +8,10 @@ Built around a Windows desktop app (`app.py`) that auto-discovers RTSP-capable c
 LAN and gives you recording, live preview, and smart alerts through one GUI — no terminal
 required day-to-day.
 
+![App screenshot](screenshot.png)
+
+*(Camera IPs/data shown are illustrative, not a real deployment.)*
+
 ---
 
 ## Why this exists
